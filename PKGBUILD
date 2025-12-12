@@ -30,7 +30,7 @@ package() {
   install -m644 app.asar "${pkgdir}/${_appdir}/app.asar"
 
   # Icons
-  install -Dm644 assets/icons/icon.png \
+  install -Dm644 icons/icon.png \
     "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${pkgname}.png"
 
   # Desktop launcher uses system electron to run our asar
